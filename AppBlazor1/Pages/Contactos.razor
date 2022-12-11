@@ -1,0 +1,41 @@
+﻿@page "/contacto"
+@inject HttpClient Http
+@using RLCRUD.EntidadesDeNegocio
+@if (contactos == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Telefono</th>
+                <th>Correo</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var contacto in contactos)
+            {
+                <tr>
+                    <td>@contacto.Id</td>
+                    <td>@contacto.Nombre</td>
+                    <td>@contacto.Telefono</td>
+                    <td>@contacto.Correo</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+@code {
+    private Contacto[]? contactos;
+
+    protected override async Task OnInitializedAsync()
+    {
+        https://localhost:44316/api/Contacto
+        contactos = await Http.GetFromJsonAsync<Contacto[]>("Contacto");
+    }
+
+}

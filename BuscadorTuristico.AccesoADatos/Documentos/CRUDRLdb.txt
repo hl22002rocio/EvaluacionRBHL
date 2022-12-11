@@ -1,0 +1,12 @@
+USE [master]
+GO
+CREATE DATABASE [CRUDRLdb]
+GO
+USE [CRUDRLdb]
+GO
+-- Crear la tabla de Contacto
+CREATE TABLE [dbo].[Contacto](
+  [Id] [int] PRIMARY KEY IDENTITY(1,1) NOT NULL,
+  [Nombre] [varchar](60) NOT NULL,
+  [Telefono] [varchar](60) NOT NULL,
+  [Nombre] [varchar](60) NOT NULL

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RLCRUD.EntidadesDeNegocio", "BuscadorTuristico.EntidadesDeNegocio\RLCRUD.EntidadesDeNegocio.csproj", "{45288F1C-CA1E-426F-AA85-082B119E5470}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RLCRUD.AccesoADatos", "BuscadorTuristico.AccesoADatos\RLCRUD.AccesoADatos.csproj", "{DC6F4D8D-48A1-499E-BD69-8256C0369500}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RLCRUD.LogicaDeNegocio", "BuscadorTuristico.LogicaDeNegocio\RLCRUD.LogicaDeNegocio.csproj", "{75A0E1DD-73A9-4C4D-8DAA-BDA1A2557346}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RLCRUD.PruebasUnitarias", "BuscadorTuristico.PruebasUnitarias\RLCRUD.PruebasUnitarias.csproj", "{85F19A8F-93B3-4C2C-95AE-FFA0679437EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RLCRUD.WebAPI", "BuscadorTuristico.WebAPI\RLCRUD.WebAPI.csproj", "{1F61F4FD-170E-4D05-8AC5-7BA80693683F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppBlazor1", "AppBlazor1\AppBlazor1.csproj", "{D2CE4DD9-BB90-4233-8FE6-BC9E4D2F64CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45288F1C-CA1E-426F-AA85-082B119E5470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45288F1C-CA1E-426F-AA85-082B119E5470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45288F1C-CA1E-426F-AA85-082B119E5470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45288F1C-CA1E-426F-AA85-082B119E5470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC6F4D8D-48A1-499E-BD69-8256C0369500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC6F4D8D-48A1-499E-BD69-8256C0369500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC6F4D8D-48A1-499E-BD69-8256C0369500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC6F4D8D-48A1-499E-BD69-8256C0369500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A0E1DD-73A9-4C4D-8DAA-BDA1A2557346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A0E1DD-73A9-4C4D-8DAA-BDA1A2557346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A0E1DD-73A9-4C4D-8DAA-BDA1A2557346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A0E1DD-73A9-4C4D-8DAA-BDA1A2557346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85F19A8F-93B3-4C2C-95AE-FFA0679437EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85F19A8F-93B3-4C2C-95AE-FFA0679437EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85F19A8F-93B3-4C2C-95AE-FFA0679437EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85F19A8F-93B3-4C2C-95AE-FFA0679437EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F61F4FD-170E-4D05-8AC5-7BA80693683F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F61F4FD-170E-4D05-8AC5-7BA80693683F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F61F4FD-170E-4D05-8AC5-7BA80693683F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F61F4FD-170E-4D05-8AC5-7BA80693683F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2CE4DD9-BB90-4233-8FE6-BC9E4D2F64CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2CE4DD9-BB90-4233-8FE6-BC9E4D2F64CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2CE4DD9-BB90-4233-8FE6-BC9E4D2F64CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2CE4DD9-BB90-4233-8FE6-BC9E4D2F64CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46F027D6-D2D5-4185-8E91-8BE51AA36B00}
+	EndGlobalSection
+EndGlobal
